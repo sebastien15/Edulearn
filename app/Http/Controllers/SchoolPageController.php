@@ -13,7 +13,7 @@ class SchoolPageController extends Controller
 
     public function message()
     {
-        return view ('school.director.message');
+        return view ('school.director.message.message');
     }
     public function task()
     {
@@ -21,7 +21,11 @@ class SchoolPageController extends Controller
     }
     public function teachers()
     {
-        return view ('school.director.teachers');
+        return view ('school.director.teachers.teachers');
+    }
+    public function addteacher()
+    {
+        return view ('school.director.teachers.addTeacher');
     }
 }
 

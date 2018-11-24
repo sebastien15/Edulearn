@@ -35,14 +35,15 @@ Route::group(['prefix'=>'website','as'=>'website.'],function(){
 Route::get('/dashboard','SuperAdminController@index')->name('adminDashboard');
 
 /*School routes*/
+Route::group(['prefix'=>'school','as'=>'director.'],function(){
+	      route::get('/','SchoolPageController@index')->name('dashboard');
+          route::get('/message','SchoolPageController@message')->name('message');
+          route::get('/teachers','SchoolPageController@teachers')->name('teachers');
+          route::get('/addteacher','SchoolPageController@addteacher')->name('addTeacher');
+          route::get('/task','SchoolPageController@task')->name('task');
+          route::resource('message','directorMessageController')->except(['index','create']);
+});
 
-Route::get('/school/dashboard','SchoolPageController@index')->name('schoolDashboard');
-
-Route::get('/school/message','SchoolPageController@message')->name('schoolMessage');
-
-Route::get('/school/teachers','SchoolPageController@teachers')->name('schoolTeachers');
-
-Route::get('/school/task','SchoolPageController@task')->name('schoolTask');
 
 /*Teaching Admin*/
 

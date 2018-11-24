@@ -4,9 +4,9 @@
 @section('content')
 
 	<!-- banner -->
-	@include('website.otherIncludes.banner')
+	@include('website.otherIncludes._banner')
 	<!-- breadcrumb -->
-	@include('website.otherIncludes.breadcumb')
+	@include('website.otherIncludes._breadcumb')
 	<!-- breadcrumb -->
 	<!-- //banner -->
 
@@ -21,7 +21,7 @@
 					<div class="col-sm-4 section_1_gallery_grid">
 						<a href="images/ab.jpg">
 							<div class="section_1_gallery_grid1">
-								<img src="images/ab.jpg" alt=" " class="img-fluid" />
+								<img src="{{asset('publicUsers/images/ab.jpg')}}" alt=" " class="img-fluid" />
 								<div class="proj_gallery_grid1_pos">
 									<h3>Edulearn</h3>
 									<p>Add some text here</p>
@@ -32,7 +32,7 @@
 					<div class="col-sm-4 section_1_gallery_grid my-sm-0 my-4">
 						<a href="images/n2.jpg">
 							<div class="section_1_gallery_grid1">
-								<img src="images/n2.jpg" alt=" " class="img-fluid" />
+								<img src="{{asset('publicUsers/images/n2.jpg')}}" alt=" " class="img-fluid" />
 								<div class="proj_gallery_grid1_pos">
 									<h3>Edulearn</h3>
 									<p>Add some text here</p>
@@ -43,7 +43,7 @@
 					<div class="col-sm-4 section_1_gallery_grid">
 						<a href="images/n3.jpg">
 							<div class="section_1_gallery_grid1">
-								<img src="images/n3.jpg" alt=" " class="img-fluid" />
+								<img src="{{asset('publicUsers/images/n3.jpg')}}" alt=" " class="img-fluid" />
 								<div class="proj_gallery_grid1_pos">
 									<h3>Edulearn</h3>
 									<p>Add some text here</p>
@@ -56,7 +56,7 @@
 					<div class="col-sm-4 section_1_gallery_grid">
 						<a href="images/am1.jpg">
 							<div class="section_1_gallery_grid1">
-								<img src="images/am1.jpg" alt=" " class="img-fluid" />
+								<img src="{{asset('publicUsers/images/am1.jpg')}}" alt=" " class="img-fluid" />
 								<div class="proj_gallery_grid1_pos">
 									<h3>Edulearn</h3>
 									<p>Add some text here</p>
@@ -67,7 +67,7 @@
 					<div class="col-sm-4 section_1_gallery_grid  my-sm-0 my-4">
 						<a href="images/am2.jpg">
 							<div class="section_1_gallery_grid1">
-								<img src="images/am2.jpg" alt=" " class="img-fluid" />
+								<img src="{{asset('publicUsers/images/am2.jpg')}}" alt=" " class="img-fluid" />
 								<div class="proj_gallery_grid1_pos">
 									<h3>Edulearn</h3>
 									<p>Add some text here</p>
@@ -78,7 +78,7 @@
 					<div class="col-sm-4 section_1_gallery_grid">
 						<a href="images/ap-2.jpg">
 							<div class="section_1_gallery_grid1">
-								<img src="images/ap-2.jpg" alt=" " class="img-fluid" />
+								<img src="{{asset('publicUsers/images/ap-2.jpg')}}" alt=" " class="img-fluid" />
 								<div class="proj_gallery_grid1_pos">
 									<h3>Edulearn</h3>
 									<p>Add some text here</p>
@@ -91,7 +91,7 @@
 					<div class="col-sm-4 section_1_gallery_grid">
 						<a href="images/am4.jpg">
 							<div class="section_1_gallery_grid1">
-								<img src="images/am4.jpg" alt=" " class="img-fluid" />
+								<img src="{{asset('publicUsers/images/am4.jpg')}}" alt=" " class="img-fluid" />
 								<div class="proj_gallery_grid1_pos">
 									<h3>Edulearn</h3>
 									<p>Add some text here</p>
@@ -102,7 +102,7 @@
 					<div class="col-sm-4 section_1_gallery_grid  my-sm-0 my-4">
 						<a href="images/n1.jpg">
 							<div class="section_1_gallery_grid1">
-								<img src="images/n1.jpg" alt=" " class="img-fluid" />
+								<img src="{{asset('publicUsers/images/n1.jpg')}}" alt=" " class="img-fluid" />
 								<div class="proj_gallery_grid1_pos">
 									<h3>Edulearn</h3>
 									<p>Add some text here</p>
@@ -113,7 +113,7 @@
 					<div class="col-sm-4 section_1_gallery_grid">
 						<a href="images/am3.jpg">
 							<div class="section_1_gallery_grid1">
-								<img src="images/am3.jpg" alt=" " class="img-fluid" />
+								<img src="{{asset('publicUsers/images/am3.jpg')}}" alt=" " class="img-fluid" />
 								<div class="proj_gallery_grid1_pos">
 									<h3>Edulearn</h3>
 									<p>Add some text here</p>

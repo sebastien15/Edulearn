@@ -28,7 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	<!-- Custom-Files -->
 	<!-- Bootstrap-Core-Css -->
-	<link rel="stylesheet" href="{{asset ('css/bootstrap.css')}}">
+	<link rel="stylesheet" href="{{asset ('publicUsers/css/bootstrap.css')}}">
 	<!-- Testimonials-Css -->
 	<link href="{{asset ('publicUsers/css/mislider.css')}}" rel="stylesheet" type="text/css" />
 	<link href="{{asset ('publicUsers/css/mislider-custom.css')}}" rel="stylesheet" type="text/css" />

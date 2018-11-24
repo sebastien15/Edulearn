@@ -8,13 +8,13 @@
 				</button>
 				<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
 					<ul class="navbar-nav justify-content-center">
-						<li class="nav-item">
-							<a class="nav-link text-white" href="index.html">Home
+						<li class="nav-item active">
+							<a class="nav-link text-white" href="{{route('website.home')}}">Home
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="about.html">About Us</a>
+							<a class="nav-link text-white" href="{{route('website.about')}}">About Us</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -37,10 +37,10 @@
 								Pages
 							</a>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="about.html">Instructors</a>
-								<a class="dropdown-item" href="index.html">What We Do</a>
-								<a class="dropdown-item" href="login.html">Login</a>
-								<a class="dropdown-item" href="register.html">Register</a>
+								<a class="dropdown-item" href="{{route('website.about')}}">Instructors</a>
+								<a class="dropdown-item" href="{{route('website.home')}}">What We Do</a>
+								<a class="dropdown-item" href="{{route('website.login')}}">Login</a>
+								<a class="dropdown-item" href="{{route('website.register')}}">Register</a>
 								<a class="dropdown-item" href="404.html">404 Page</a>
 								<a class="dropdown-item" href="coming_soon.html">Coming Soon</a>
 								<a class="dropdown-item" href="form.html">Admission Form</a>
@@ -48,13 +48,13 @@
 							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="blog.html">Blog</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link text-white" href="gallery.html">Gallery</a>
+							<a class="nav-link text-white" href="{{route('website.blog')}}">Blog</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="contact.html">Contact Us</a>
+							<a class="nav-link text-white" href="{{route('website.gallery')}}">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="{{route('website.contact')}}">Contact Us</a>
 						</li>
 					</ul>
 				</div>
