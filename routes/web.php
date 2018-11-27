@@ -29,6 +29,13 @@ Route::group(['prefix'=>'website','as'=>'website.'],function(){
 });
 
 /*website routes ends*/
+/*Platform routes starts*/
+
+Route::group(['prefix'=>'platform','as'=>'platform.'],function(){
+         route::get('/','platformController@index')->name('home');
+});
+
+/*Platform routes ends*/
 
 /* Super Admin routes */
 

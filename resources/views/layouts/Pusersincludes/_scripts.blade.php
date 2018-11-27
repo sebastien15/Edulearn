@@ -1,4 +1,6 @@
-<!-- Js files -->
+
+
+	<!-- Js files -->
 	<!-- JavaScript -->
 	<script src="{{asset ('publicUsers/js/jquery-2.2.3.min.js')}}"></script>
 	<!-- Default-JavaScript-File -->
@@ -51,3 +53,4 @@
 	<script src="{{asset ('publicUsers/js/edulearn.js')}}"></script>
 
 	<!-- //Js files -->
+
