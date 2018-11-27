@@ -7,7 +7,6 @@
      	<div class="col-12 grid-margin">
               <div class="card">
                 <div class="card-body">
-                	
                   <h4 class="card-title">Add Teacher</h4>
                   <form class="form-sample">
                     <p class="card-description">
