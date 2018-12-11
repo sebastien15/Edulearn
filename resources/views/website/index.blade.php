@@ -1,4 +1,5 @@
-@extends('layouts.publicUsers')
+@extends('layouts.website')
+@section('title','QEESS')
 @section('content')
     <!-- banner -->
 	@include('website.indexIncludes._banner')
@@ -30,5 +31,6 @@
 	<!-- news -->
 	@include('website.indexIncludes._news')
 	<!-- //news -->
+	@include('website.indexIncludes._footer')
 
 @endsection

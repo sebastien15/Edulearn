@@ -1,0 +1,1 @@
+all.schools.blade.php

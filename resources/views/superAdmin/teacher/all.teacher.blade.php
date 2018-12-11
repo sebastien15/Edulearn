@@ -1,0 +1,1 @@
+all.teacher.blade.php

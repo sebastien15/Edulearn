@@ -1,0 +1,1 @@
+single.teacher.blade.php

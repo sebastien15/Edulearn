@@ -1,0 +1,1 @@
+single.director.blade.php

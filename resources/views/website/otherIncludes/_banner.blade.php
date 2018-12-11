@@ -1,4 +1,5 @@
-<div class="banner-agile-2">
+	<!-- banner -->
+	<div class="banner-agile-2">
 		<!-- navigation -->
 		<div class="navigation-w3ls">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-nav">
@@ -43,8 +44,20 @@
 								<a class="dropdown-item" href="{{route('website.register')}}">Register</a>
 								<a class="dropdown-item" href="404.html">404 Page</a>
 								<a class="dropdown-item" href="coming_soon.html">Coming Soon</a>
-								<a class="dropdown-item" href="form.html">Admission Form</a>
-								<a class="dropdown-item" href="faq.html">Faq</a>
+								<a class="dropdown-item" href="form.html">Log in</a>
+								<a class="dropdown-item" href="faq.html">Sign in</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								School
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="{{route('website.about')}}">Kindergatten Schools</a>
+								<a class="dropdown-item" href="{{route('website.home')}}">Primary Schools</a>
+								<a class="dropdown-item" href="{{route('website.secondarySchools')}}">Secondary Schools</a>
+								<a class="dropdown-item" href="{{route('website.login')}}">University Schools</a>
+								<a class="dropdown-item" href="{{route('website.login')}}">Other Schools</a>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -56,9 +69,25 @@
 						<li class="nav-item">
 							<a class="nav-link text-white" href="{{route('website.contact')}}">Contact Us</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="{{route('website.contact')}}">Log in</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="{{route('website.contact')}}">Sign up</a>
+						</li>
 					</ul>
 				</div>
 			</nav>
 		</div>
 		<!-- //navigation -->
 	</div>
+	<!-- breadcrumb -->
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item">
+				<a href="index.html">Home</a>
+			</li>
+			<li class="breadcrumb-item active" aria-current="page">Blog Page</li>
+		</ol>
+	</nav>
+	<!-- breadcrumb -->

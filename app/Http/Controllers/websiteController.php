@@ -41,4 +41,28 @@ class websiteController extends Controller
         return view('publicUsers.register');
     }
 
+    public function NurserySchools(){
+        return view('website.Nursery_schools');
+    }
+
+    public function secondarySchools(){
+        return view('website.secondary_schools');
+    }
+
+    public function singleSecondary(){
+        return view('website.secondary.single_secondary');
+    }
+
+    public function admissionSecondary(){
+        return view('website.secondary.admission');
+    }
+
+    public function PrimarySchools(){
+        return view('website.primary_schools');
+    }
+
+    public function UniversitySchools(){
+        return view('website.university_schools');
+    }
+
 }

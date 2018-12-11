@@ -10,7 +10,7 @@
 					<div class="ih-item circle effect16 left_to_right mx-auto">
 						<a href="language.html">
 							<div class="img">
-								<img src="{{asset ('publicUsers/images/c1.jpg')}}" alt="img" class="img-fluid rounded-circle">
+								<img src="{{asset ('websitePublic/images/c1.jpg')}}" alt="img" class="img-fluid rounded-circle">
 							</div>
 							<div class="info">
 								<h3 class="text-capitalize text-white">language</h3>
@@ -32,7 +32,7 @@
 					<div class="ih-item circle effect16 left_to_right mx-auto">
 						<a href="communication.html">
 							<div class="img">
-								<img src="{{asset ('publicUsers/images/c2.jpg')}}" alt="img" class="img-fluid rounded-circle">
+								<img src="{{asset ('websitePublic/images/c2.jpg')}}" alt="img" class="img-fluid rounded-circle">
 							</div>
 							<div class="info">
 								<h3 class="text-capitalize text-white">communication</h3>
@@ -54,7 +54,7 @@
 					<div class="ih-item circle effect16 left_to_right mx-auto">
 						<a href="business.html">
 							<div class="img">
-								<img src="{{asset ('publicUsers/images/c3.jpg')}}" alt="img" class="img-fluid rounded-circle">
+								<img src="{{asset ('websitePublic/images/c3.jpg')}}" alt="img" class="img-fluid rounded-circle">
 							</div>
 							<div class="info">
 								<h3 class="text-capitalize text-white">business</h3>
@@ -78,7 +78,7 @@
 					<div class="ih-item circle effect16 left_to_right mx-auto">
 						<a href="software.html">
 							<div class="img">
-								<img src="{{asset ('publicUsers/images/c4.jpg')}}" alt="img" class="img-fluid rounded-circle">
+								<img src="{{asset ('websitePublic/images/c4.jpg')}}" alt="img" class="img-fluid rounded-circle">
 							</div>
 							<div class="info">
 								<h3 class="text-capitalize text-white">software</h3>
@@ -100,7 +100,7 @@
 					<div class="ih-item circle effect16 left_to_right mx-auto">
 						<a href="social_media.html">
 							<div class="img">
-								<img src="{{asset ('publicUsers/images/c6.jpg')}}" alt="img" class="img-fluid rounded-circle">
+								<img src="{{asset ('websitePublic/images/c6.jpg')}}" alt="img" class="img-fluid rounded-circle">
 							</div>
 							<div class="info">
 								<h3 class="text-capitalize text-white">social media </h3>
@@ -122,7 +122,7 @@
 					<div class="ih-item circle effect16 left_to_right mx-auto">
 						<a href="photography.html">
 							<div class="img">
-								<img src="{{asset ('publicUsers/images/c5.jpg')}}" alt="img" class="img-fluid rounded-circle">
+								<img src="{{asset ('websitePublic/images/c5.jpg')}}" alt="img" class="img-fluid rounded-circle">
 							</div>
 							<div class="info">
 								<h3 class="text-capitalize text-white">photography </h3>
